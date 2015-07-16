@@ -1,0 +1,289 @@
+body{
+	background-color:#D2CFCF;
+}	
+
+#page{
+	margin:1.875em 1.875em;
+	font-family: Helvetica, Arial, sans-serif;
+	background-color: black;	
+}
+
+header{
+	font-family: Georgia, "Times New Roman", serif;	
+	background-color:#413F3F;
+	border-bottom-color:red;
+	border-bottom-width:.25em;
+	border-bottom-style:solid;
+}
+
+h1{
+	font-family: Georgia, "Times New Roman", serif;
+	padding:.9375em;
+	font-family:Helvetica,Arial,sans-serif;
+	text-align:center;
+	font-size:1.375em;
+	font-weight:bold;
+	color: white;
+}
+
+#leftPanel{
+	float:left;
+	width:49%;
+}
+
+#rightPanel{
+	font-size:.75em;
+	float:right;
+	width:50%;
+	border-left-color:red;
+	border-left-width:.25em;
+	border-left-style:solid;
+}
+
+h2{
+	text-align:center;
+	color: white;
+	font-size:1em;
+	font-weight:strong;
+	font-family:Helvetica,Arial,sans-serif;
+}
+  
+#leftPanel input[type="text"] {
+  padding: .625em;
+  border: solid .125em #fff;
+  box-shadow: inset .0625em .0625em .125em 0 #707070;
+  transition: box-shadow 0.3s;
+}
+
+  
+#leftPanel input[type="password"] {
+  padding: .625em;
+  border: solid .125em #fff;
+  box-shadow: inset .0625em .0625em .125em 0 #707070;
+  transition: box-shadow 0.3s;
+}
+
+#rightPanel input[type="text"] {
+  padding: .3125em .625em;
+  border: solid .0625em #fff;
+  box-shadow: inset .5px .5px 1px 0 #707070;
+  transition: box-shadow 0.15s;
+}
+
+#rightPanel input[type="password"] {
+  padding: .3125em .625em;
+  border: solid .0625em #fff;
+  box-shadow: inset .5px .5px 1px 0 #707070;
+  transition: box-shadow 0.15s;
+}
+
+#loginPanel{
+	width:70%;
+	margin:1.25em auto;
+	background-color:white;
+	padding:1.25em;
+}
+
+#forgotOptions, #securityQ, #securityEmail, #eMailMe, #accounts{
+	width:70%;
+	margin:1.25em auto;
+	background-color:white;
+	padding:1.25em;
+	display:none;
+}
+
+#accounts{
+	text-align:center;
+}
+
+#displayMessage, #badEmail, .invalidEntry{
+	width:70%;
+	margin:1.25em auto;
+	background-color:red;
+	color:white;
+	display:none;
+	padding:.625em 0;
+	text-align:center;
+}
+
+#displayInfo, #regValid, #userNewAccMsg{
+	width:70%;
+	margin:1.25em auto;
+	background-color:#D5D2D2;
+	color:black;
+	display:none;
+	padding:.625em 0;
+	text-align:center;
+}
+
+
+#registrationPanel{
+	width:70%;
+	margin:.625em auto;
+	background-color:white;
+	padding:.625em;
+}
+
+#forgotOptions{
+	display:none;
+}
+
+#loginPanel{
+	width:70%;
+	margin:1.25em auto;
+	background-color:white;
+	padding:1.25em;
+}
+
+#content{
+	width:100%;
+	margin:0 auto;
+	background-color:black;
+}
+
+#transactionOptions{
+	width: 100%;
+	background-color: black;
+	padding:.9375em 0;
+	border-bottom-color:red;
+	border-bottom-width:.125em;
+	border-bottom-style:solid;
+	
+}
+
+#content input[type="submit"]{
+	border-width:.3125em;
+	padding: .3125em 2.5em;
+	font-size:1em;
+	font-weight:strong;
+	margin-left:6.5em;
+	margin-right:5em;
+}
+
+#detailTransactions{
+	width:100%;
+	padding: .3125em 0;
+}
+
+#leftDetail{
+	float:left;
+	width:25%;
+}
+
+#rightDetail{
+	float:left;
+	width:75%;
+}
+
+#detailTransactions input[type="submit"]{
+	border-width:.3125em;
+	margin:2em 2em;
+	padding: .3125em 2.5em;
+	font-size:1em;
+	font-weight:strong;
+}
+
+.leftBox{
+	color:black;
+	background-color:#D5D2D2;
+	width:40%;
+	padding: .625em 0;
+	margin:1.25em 10em;
+	font-size:1em;
+	font-weight:strong;
+	text-align:center;
+	border-color:red;
+	border-width:.125em;
+	border-style:solid;
+}
+
+.leftText{
+	margin:1.25em 2em;
+	color: white;
+	font-weight:strong;
+	font-size:1.25em;
+}
+
+#transactionsList{
+	color:black;
+	background-color:white;
+	width:75%;
+	height:36.5em;
+	padding: .3125em 0;
+	margin:1.25em auto;
+	font-size:12px;
+	font-weight:strong;
+	border-color:red;
+	border-width:.125em;
+	border-style:solid;
+	overflow:auto;
+}
+
+#transactionsList th{
+	text-aign:center;
+	color:white;
+	background-color:#413F3F;
+	font-size:14px;
+	padding:0 5px;
+}
+
+.lefftie{
+	text-align:left;	
+}
+
+.rightie{
+	text-align:right;	
+}
+
+.centie{
+	text-align:center;	
+}
+
+
+#transactionsList tr:nth-child(odd){
+	background-color: #E0E0E0;
+}
+
+#transactionsList td{
+	padding: .3125em;
+	font-size: 1em;
+}
+
+.transDetailEntry{
+	display:none;
+	color:black;
+	background-color:white;
+	width:40%;
+	padding: 1.25em 0;
+	margin:1.25em auto;
+	font-size:.7em;
+	font-weight:strong;
+	text-align:center;
+	border-color:red;
+	border-width:.125em;
+	border-style:solid;
+}
+
+.transLodgeWithd input[type="submit"]{
+	margin: 0 2em 0 2em;
+}
+
+#badMessage{
+	margin: 1em auto;
+	background-color: red;
+	width:30%;
+	color:white;
+	display:none;
+	padding:.625em 0;
+	text-align:center;
+}
+
+footer{
+	padding:1.25em;
+	background-color:#413F3F;
+	color:white;
+	border-top-color:red;
+	border-top-width:.25em;
+	border-top-style:solid;
+	clear: both;
+}
